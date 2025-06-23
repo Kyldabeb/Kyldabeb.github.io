@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyle Benson - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, I'm Kyle Benson</h1>
-  <p>Welcome to my portfolio website!</p>
+  <header>
+    <div class="container">
+      <h1>Kyle Benson</h1>
+      <p>Software Developer | Tech Enthusiast | Problem Solver</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’ve been developing software for 6 years, working on personal and academic projects with Python, Java, C++, and more.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li>
+          <strong>My Cool App</strong><br />
+          A web-based productivity app built with Flask and PostgreSQL.
+        </li>
+        <li>
+          <strong>Data Visualizer</strong><br />
+          A tool for visualizing CSV datasets using JavaScript.
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: Kyldahvrin@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/yourusername">github.com/kyldabeb</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kyle Benson</p>
+  </footer>
 </body>
 </html>
